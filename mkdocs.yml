@@ -1,0 +1,20 @@
+site_name: CG Group
+site_url: http://127.0.0.1:8000
+repo_url: https://github.com/orpha2010/CGgroup
+
+
+nav:
+
+  - Home: index.md
+  - Software: 
+    - maya: ./maya/
+    - max: ./max/
+    - houdini: 
+      - sop: ./houdini/sop
+    - Nuke: ./nuke/
+
+  - Bug Tracker: './bugs/'
+#theme: readthedocs
+
+  
+site_author: CG Group

@@ -1,15 +1,20 @@
-.. CG TD Pipeline documentation master file, created by
-   sphinx-quickstart on Thu Mar 12 20:46:05 2020.
+.. CG Group documentation master file, created by
+   sphinx-quickstart on Thu Sep 14 21:11:17 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-========================================
-CG Group 的那些事儿
-========================================
+Welcome to CG Group's documentation!
+====================================
 
 .. toctree::
-   :maxdepth: 3
-   :glob:
+   :maxdepth: 2
+   :caption: Contents:
 
-   
-   docs/*/index
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
