@@ -1,20 +1,18 @@
 site_name: CG Group
-site_url: http://127.0.0.1:8000
-repo_url: https://github.com/orpha2010/CGgroup
+theme:
+  # name: readthedocs
+  name: mkdocs
+  highlightjs: true
 
-
-nav:
-
-  - Home: index.md
-  - Software: 
-    - maya: ./maya/
-    - max: ./max/
-    - houdini: 
-      - sop: ./houdini/sop
-    - Nuke: ./nuke/
-
-  - Bug Tracker: './bugs/'
-#theme: readthedocs
-
-  
-site_author: CG Group
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        # See: https://mkdocstrings.github.io/python/usage/
+        python:
+          options:
+            docstring_style: sphinx
+markdown_extensions:
+  - markdown_include.include:
+      base_path: .
+  - admonition
