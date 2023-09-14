@@ -8,7 +8,7 @@
 
 project = 'CGgroup'
 copyright = '2023, CGgroup'
-author = '张震'
+author = 'Zhang Zhen'
 release = 'v1.0.1'
 
 # -- General configuration ---------------------------------------------------
@@ -19,7 +19,7 @@ extensions = []
 templates_path = ['_templates']
 exclude_patterns = []
 
-language = 'zh_CN'
+language = 'en_US'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
