@@ -9,7 +9,7 @@
 project = 'CGgroup'
 copyright = '2023, CGgroup'
 author = '张震'
-release = '文档分享'
+release = 'v1.0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -30,5 +30,5 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 extensions = [
     'recommonmark',
-    'sphinx_markdown_tables'
+    # 'sphinx_markdown_tables'
  ]
